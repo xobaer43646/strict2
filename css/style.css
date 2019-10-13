@@ -1,0 +1,598 @@
+/*global css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1199px;
+    margin: 0 auto;
+}
+/*topbar css*/
+.topbar{
+    height: 69px;
+    background: #f6f9f9;
+    padding-top: 20px;}
+.logo{
+    width: 30%;
+    float: left;
+}
+.manu{
+    width: 70%;
+    float: left;
+}
+.manu ul{
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+}
+.manu ul li{
+    display: inline;
+    margin: 30px;
+}
+.manu ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 6px;
+}
+.manu ul li a:hover{
+    background: #5fc3ff;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.4s all linear;
+}
+/*banner css*/
+.banner{
+    background: url(../image/banner-bg-image.png);
+    padding: 200px 0;
+    text-align: center;
+    background-size: cover;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    color: #fff;
+}
+.banner .blueLine{
+    color: #15a4fa;
+    height: 2px;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.banner p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.banner .button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.banner .button:hover{
+    background: #15a4fa;
+    transition: transform 1s linear;
+}
+.fas{
+    position: absolute;
+    color: #fff;
+}
+.downarrow{
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #/*global css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1199px;
+    margin: 0 auto;
+}
+/*topbar css*/
+.topbar{
+    height: 69px;
+    background: #f6f9f9;
+    padding-top: 20px;}
+.logo{
+    width: 30%;
+    float: left;
+}
+.manu{
+    width: 70%;
+    float: left;
+}
+.manu ul{
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+}
+.manu ul li{
+    display: inline;
+    margin: 30px;
+}
+.manu ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 6px;
+}
+.manu ul li a:hover{
+    background: #5fc3ff;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.4s all linear;
+}
+/*banner css*/
+.banner{
+    background: url(../image/banner-bg-image.png);
+    padding: 200px 0;
+    text-align: center;
+    background-size: cover;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    color: #fff;
+}
+.banner .blueLine{
+    color: #15a4fa;
+    height: 2px;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.banner p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.banner .button{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.banner .button:hover{
+    background: #15a4fa;
+    transition: transform 1s linear;
+}
+.fas{
+    position: absolute;
+    color: #fff;
+}
+.downarrow{
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%);
+}
+/*about us section*/
+.about-us{
+    text-align: center;
+    padding: 66px;
+    background: #f6f9f9;
+}
+.about-us h4{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.about-us p{
+    font-size: 16px;
+    padding: 0 12%;
+}
+.feature{
+    padding: 78px;
+}
+.box{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.box img{margin-bottom: 24px;}
+.box h4{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.box p{
+    font-size: 15px;
+    margin-bottom: 80px;
+    padding: 0 10%;
+}
+/*portfolio section*/
+.portfolio-section{
+    text-align: center;
+    background: #f6f9f9;
+    clear: both;
+    padding: 35px;
+}
+.portfolio-section h2{
+    font-size: 30px;
+}
+.portfolio-section p{
+    font-size: 18px;
+    margin: 20px;
+}
+.portfolio-section .image-box{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+.image-box img{width: 100%;}
+.hover{
+    width: 100%;
+    height: 99%;
+    background: rgba(44, 172, 247, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.hover .icons{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s linear;
+}
+.icons ul{
+    list-style: none;
+}
+.icons li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+.fa {
+    color: #15a4fa;
+}
+.image-box:hover .hover{
+    opacity: 1;
+}
+/*contact section*/
+.contact-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)),url(../image/contact-section-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0;
+}
+.contact-title{
+    text-align: center;
+}
+.contact-title h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.contact-title p{
+    color: #999999;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+form input[type="text"], 
+form input[type="email"],
+form textarea{
+    width: 100%;
+    background: transparent;
+    padding: 20px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+form input[type="text"]:focus,
+form input[type="email"],
+form textarea{
+    outline: none;
+}
+
+form ul{}
+form ul li{
+    list-style: none;
+    float: left;
+    width: 50%;
+}
+form ul li span{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 15px;
+}
+form ul li input[type="checkbox"]{
+}
+form ul li input[type="submit"]{
+    float: right;
+    padding: 16px 55px;
+    font-size: 18px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s all ease-in;
+}
+form ul li input[type="submit"]:hover{
+    background: rgba(21, 164, 250, 0.7);
+}
+form ul li:first-child{
+    margin-top: 20px;
+}
+
+
+/*footer-section */
+footer{
+    background: #f6f9f9;
+    padding: 35px;
+    position: relative;
+}
+.copy-right{
+    width: 50%;
+    float: left;
+    margin-top: -9px;
+}
+.copy-right p{
+    font-size: 15px;
+    color: #999999;
+}
+.social-icon{
+    width: 50%;
+    float: left;
+}
+.social-icon ul{
+    float: right;
+    margin-top: -19px;
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon .icon{
+    height: 40px;
+    width: 40px;
+    background: #ebe9ee;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    transition: 0.4s all linear;
+}
+.social-icon .icon:hover{
+    background: #fff;
+    color: #15a4fa !important;
+}
+
+
+}
+/*about us section*/
+.about-us{
+    text-align: center;
+    padding: 66px;
+    background: #f6f9f9;
+}
+.about-us h4{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.about-us p{
+    font-size: 16px;
+    padding: 0 12%;
+}
+.feature{
+    padding: 78px;
+}
+.box{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.box img{margin-bottom: 24px;}
+.box h4{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.box p{
+    font-size: 15px;
+    margin-bottom: 80px;
+    padding: 0 10%;
+}
+/*portfolio section*/
+.portfolio-section{
+    text-align: center;
+    background: #f6f9f9;
+    clear: both;
+    padding: 35px;
+}
+.portfolio-section h2{
+    font-size: 30px;
+}
+.portfolio-section p{
+    font-size: 18px;
+    margin: 20px;
+}
+.portfolio-section .image-box{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+.image-box img{width: 100%;}
+.hover{
+    width: 100%;
+    height: 99%;
+    background: rgba(44, 172, 247, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.hover .icons{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s linear;
+}
+.icons ul{
+    list-style: none;
+}
+.icons li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+.fa {
+    color: blue;
+}
+.image-box:hover .hover{
+    opacity: 1;
+}
+/*contact section*/
+.contact-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)),url(../image/contact-section-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0;
+}
+.contact-title{
+    text-align: center;
+}
+.contact-title h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.contact-title p{
+    color: #999999;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+form{
+    width: 50%;
+    margin: 0 auto;
+}
+form input[type="text"], 
+form input[type="email"],
+form textarea{
+    width: 100%;
+    background: transparent;
+    padding: 20px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+form input[type="text"]:focus,
+form input[type="email"],
+form textarea{
+    outline: none;
+}
+
+form ul{}
+form ul li{
+    list-style: none;
+    float: left;
+    width: 50%;
+}
+form ul li span{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 15px;
+}
+form ul li input[type="checkbox"]{
+}
+form ul li input[type="submit"]{
+    float: right;
+    padding: 16px 55px;
+    font-size: 18px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s all ease-in;
+}
+form ul li input[type="submit"]:hover{
+    background: rgba(21, 164, 250, 0.7);
+}
+form ul li:first-child{
+    margin-top: 20px;
+}
+
+
+/*footer-section */
+footer{
+    background: #f6f9f9;
+    padding: 35px;
+    position: relative;
+}
+.copy-right{
+    width: 50%;
+    float: left;
+    margin-top: -9px;
+}
+.copy-right p{
+    font-size: 15px;
+    color: #999999;
+}
+.social-icon{
+    width: 50%;
+    float: left;
+}
+.social-icon ul{
+    float: right;
+    margin-top: -19px;
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon .icon{
+    height: 40px;
+    width: 40px;
+    background: #ebe9ee;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    transition: 0.4s all linear;
+}
+.social-icon .icon:hover{
+    background: #fff;
+    color: #15a4fa !important;
+}
+
